@@ -6,7 +6,7 @@ This happens quite often for private NPM modules, see https://github.com/yarnpkg
 
 ## Installation
 
-	npm install -g yarn-retry
+	yarn global add yarn-retry
 
 ## Usage
 
