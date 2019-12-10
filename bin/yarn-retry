@@ -8,8 +8,8 @@ var retryargs = process.argv.indexOf('--') === -1 ? process.argv : process.argv.
 
 program
   .version(require(__dirname + '/../package.json').version)
-  .option('-a, --attempts [10]', 'Number of attempts before fail [10]', 10)
-  .option('-w, --wait [500]', 'Milliseconds to wait between tries [10]', 10)
+  .option('-a, --attempts [10]', 'Number of attempts before fail', 10)
+  .option('-w, --wait [500]', 'Milliseconds to wait between tries', 500)
   .parse(retryargs);
 
 run('yarn', npmargs, {wait: program.wait, attempts: program.attempts}, function (err, res) {
