@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/artemv/yarn-retry.svg?branch=master)](https://travis-ci.org/artemv/yarn-retry)
 
-Command line utility that retries  `yarn` when Yarn fails with `unexpected end of file` error.
+Command line utility that retries  `yarn` when it fails with `unexpected end of file` error.
 
 This happens quite often for private NPM modules, see https://github.com/yarnpkg/yarn/issues/7521
 
