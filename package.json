@@ -17,11 +17,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "colors": "~0.6.0-1",
-    "commander": "~1.1.1"
+    "colors": "^1.4.0",
+    "commander": "^4.0.1"
   },
   "devDependencies": {
-    "mocha": "~1.11.0",
-    "chai": "~1.7.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
   }
 }
