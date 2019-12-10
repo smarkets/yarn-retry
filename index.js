@@ -10,8 +10,7 @@ module.exports = function (command, args, options, callback) {
     process.env.npm_config_color = 0;
 
     var attempt = exec(runCmd, function (err, stdout, stderr) {
-      matchers = [/npm ERR\! cb\(\) never called\!/ig, /npm ERR\! errno ECONNRESET/ig,
-          /npm ERR\! shasum check failed/ig, /npm ERR\! code EINTEGRITY/ig];
+      matchers = [/unexpected end of file/ig];
       var match = matchers.some(function (matcher) {
           return stdout.match(matcher) || stderr.match(matcher);
       });

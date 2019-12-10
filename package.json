@@ -1,17 +1,17 @@
 {
-  "name": "npm-install-retry",
-  "description": "retry npm install when it fails",
-  "version": "2.0.0",
+  "name": "yarn-retry",
+  "description": "retry yarn when it fails",
+  "version": "1.0.0",
   "repository": {
-    "url": "git://github.com/jfromaniello/npm-install-retry.git"
+    "url": "git://github.com/artemv/yarn-retry.git"
   },
   "author": {
-    "name": "José F. Romaniello",
-    "email": "jfromaniello@gmail.com",
-    "url": "http://joseoncode.com"
+    "name": "Artem Vasiliev",
+    "email": "artem.job@gmail.com",
+    "url": "github.com/artemv"
   },
   "bin": {
-    "npm-install-retry": "./bin/npm-install-retry"
+    "yarn-retry": "./bin/yarn-retry"
   },
   "scripts": {
     "test": "mocha"
