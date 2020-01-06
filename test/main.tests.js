@@ -27,4 +27,5 @@ describe('npm-install-retry', function () {
   }
 
   testRetries('echo An unexpected error occurred: "https://registry.yarnpkg.com/@private/ngffwd-node-processes/-/ngffwd-node-processes-1.0.123.tgz: unexpected end of file".');
+  testRetries('echo An unexpected error occurred: "https://registry.yarnpkg.com/@private/ngffwd-node-processes/-/ngffwd-node-processes-1.0.123.tgz: Request failed \\"404 Not Found\\"".');
 });
