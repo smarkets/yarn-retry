@@ -2,7 +2,7 @@
 
 Command line utility that retries `yarn` command when it fails with `unexpected end of file` error.
 
-This happens quite often for private NPM modules, see https://github.com/yarnpkg/yarn/issues/7521
+This happens quite often for private NPM modules, see https://github.com/yarnpkg/yarn/issues/7521, https://github.com/yarnpkg/yarn/issues/2738
 
 ## Installation
 
